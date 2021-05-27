@@ -1,0 +1,6 @@
+karafcxf\service\service\PersonService.class
+karafcxf\service\dao\PersonDAO.class
+karafcxf\service\service\impl\PersonServiceImpl.class
+karafcxf\service\dto\Person.class
+karafcxf\service\persistence\PersistenceUtil.class
+karafcxf\service\dao\impl\PersonDAOImpl.class

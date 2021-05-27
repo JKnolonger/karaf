@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1622082483956
+Build-Jdk: 1.8.0_121
+Built-By: nbhtin
+Bundle-ManifestVersion: 2
+Bundle-Name: rest
+Bundle-SymbolicName: rest
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: karafcxf.rest;uses:="karafcxf.entity,javax.ws.rs,karafcx
+ f.service.service";version="1.0.0.SNAPSHOT"
+Import-Package: javax.ws.rs,karafcxf.entity;version="[1.0,2)",karafcxf.s
+ ervice.service;version="[1.0,2)",org.osgi.service.blueprint;version="[1
+ .0.0,2.0.0)"
+Import-Service: karafcxf.service.service.PersonService;multiple:=false
+Tool: Bnd-1.50.0
